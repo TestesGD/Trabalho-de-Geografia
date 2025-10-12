@@ -184,7 +184,7 @@ h4{
 
 /* Italianos */
 .mapa-legenda li:nth-child(1) details[open] {
-  background-image: url('imagens/fundos/italia.jpg');
+  background-image: url('fundos/italia.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -193,7 +193,7 @@ h4{
 
 /* Alemães */
 .mapa-legenda li:nth-child(2) details[open] {
-  background-image: url('imagens/fundos/alemanha.jpg');
+  background-image: url('fundos/alemanha.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -202,7 +202,7 @@ h4{
 
 /* Portugueses */
 .mapa-legenda li:nth-child(3) details[open] {
-  background-image: url('imagens/fundos/portugal.jpg');
+  background-image: url('fundos/portugal.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -211,7 +211,7 @@ h4{
 
 /* Espanhóis */
 .mapa-legenda li:nth-child(4) details[open] {
-  background-image: url('imagens/fundos/espanha.jpg');
+  background-image: url('fundos/espanha.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -237,7 +237,7 @@ h4{
 
 /* Fundo centralizado quando o details é aberto */
 .mapa-details details[open] {
-  background-image: url('imagens/fundos/italia.jpg'), url('imagens/fundos/alemanha.jpg');
+  background-image: url('fundos/italia.jpg'), url('fundo  s/alemanha.jpg');
   background-size: cover, cover, cover, cover;
   background-position: center, left center, right center;
   background-blend-mode: overlay;
