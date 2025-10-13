@@ -484,7 +484,7 @@ h4{
   }
 
   .card-obras {
-    background: rgb(8, 130, 24);
+    background: linear-gradient(rgb(8, 130, 24),rgb(231, 234, 231), rgb(255, 0, 0));
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     width: 280px;
@@ -512,7 +512,7 @@ h4{
   }
 
   .card-obras1 {
-    background: rgb(127, 162, 11);
+    background:linear-gradient( rgb(238, 200, 11), rgb(255, 0, 0), rgb(10, 8, 8));
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     width: 280px;
