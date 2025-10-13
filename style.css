@@ -475,6 +475,118 @@ h4{
 }
 
 @media (max-width: 480px) {
+  /*card das obras italia*/
+  .card-container-obras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .card-obras {
+    background: rgb(8, 130, 24);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+
+
+  .card-obras:hover {
+    transform: scale(1.05);
+  }
+
+  .card-obras img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+  }
+  /*alemanha*/
+  .card-container-obras1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .card-obras1 {
+    background: rgb(238, 200, 11);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+
+
+  .card-obras1:hover {
+    transform: scale(1.05);
+  }
+
+  .card-obras1 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+  }
+  /*portugal*/
+  .card-container-obras2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .card-obras2 {
+    background: linear-gradient(to right, rgb(6, 133, 25), rgb(255, 0, 0));
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+
+
+  .card-obras2:hover {
+    transform: scale(1.05);
+  }
+
+  .card-obras2 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+  }
+  /*espanha*/
+  .card-container-obras3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .card-obras3 {
+    background: linear-gradient(to right, rgb(183, 163, 11), rgb(255, 0, 0));
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+
+
+  .card-obras3:hover {
+    transform: scale(1.05);
+  }
+
+  .card-obras3 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+  }
   .timeline {
     padding: 20px;
   }
@@ -498,6 +610,14 @@ h4{
     right: auto;
     
   }
+  footer {
+  background: linear-gradient(rgb(42, 220, 19), rgb(173, 205, 12));
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
 }
 .centro p{
   text-align: center;
