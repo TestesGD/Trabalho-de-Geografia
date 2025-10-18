@@ -376,6 +376,33 @@ h4{
   line-height: 1.7;
   text-align: justify;
 }
+.historia table{
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.historia th,td{
+  padding: 12x;
+  border: 1px solid #ddd;
+}
+.historia td{
+  text-align: center;
+  
+}
+.historia th{
+  background-color:green ;
+  color: white;
+  text-transform: uppercase;
+}
+.historia tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+.historia tr:hover{
+  background-color: #e0f3ff;
+}
 /* ====== Linha do Tempo ====== */
 .timeline-section {
   background: #eef2ff;
@@ -447,7 +474,11 @@ h4{
 .timeline-item:nth-child(even)::before {
   left: -9px;
 }
-
+.ti-igr p{
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
 @media (max-width: 700px) {
   .timeline {
     padding: 20px;
@@ -611,12 +642,12 @@ h4{
     
   }
   footer {
-  background: black;
+  background: linear-gradient(rgb(42, 220, 19), rgb(173, 205, 12));
   color: white;
   text-align: center;
   padding: 15px;
   font-size: 0.9rem;
-}
+  }
 
 }
 .centro p{
