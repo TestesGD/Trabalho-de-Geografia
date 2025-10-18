@@ -386,7 +386,7 @@ h4{
 }
 .historia th,td{
   padding: 12x;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; 
 }
 .historia td{
   text-align: center;
@@ -516,12 +516,12 @@ h4{
 @media (max-width: 480px) {
   /*card das obras italia*/
   .historia table {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 
   }
   .historia th,td{
     padding: 8px;
-    width: -60%;
+    width: 60%;
   }
 
   .card-container-obras {
