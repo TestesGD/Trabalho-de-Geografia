@@ -517,7 +517,7 @@ h4{
   /*card das obras italia*/
   .historia table {
   width: 100%;
-  min-width: 400px; /* Garante que o conteúdo não quebre */
+  
   margin: 0 auto;
   border-collapse: collapse;
   background-color: white;
