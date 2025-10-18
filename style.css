@@ -507,9 +507,14 @@ h4{
 
 @media (max-width: 480px) {
   /*card das obras italia*/
-    .historia table {
-    font-size: 14px;
-  }
+  .historia table {
+  width: 60%;
+  min-width: 400px; /* Garante que o conteúdo não quebre */
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
   .card-container-obras {
     display: flex;
