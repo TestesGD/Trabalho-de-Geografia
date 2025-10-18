@@ -516,12 +516,12 @@ h4{
 @media (max-width: 480px) {
   /*card das obras italia*/
   .historia table {
-  width: 100%;
-  
-  margin: 0 auto;
-  border-collapse: collapse;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+
+  }
+  .historia th,td{
+    padding: 8px;
+    width: -60%;
   }
 
   .card-container-obras {
