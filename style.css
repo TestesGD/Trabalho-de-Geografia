@@ -480,6 +480,14 @@ h4{
   font-weight: bold;
 }
 @media (max-width: 700px) {
+  .historia table {
+  width: 100%;
+  min-width: 400px; /* Garante que o conteúdo não quebre */
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  } 
   .timeline {
     padding: 20px;
   }
@@ -508,13 +516,13 @@ h4{
 @media (max-width: 480px) {
   /*card das obras italia*/
   .historia table {
-  width: 60%;
+  width: 50%;
   min-width: 400px; /* Garante que o conteúdo não quebre */
   margin: 0 auto;
   border-collapse: collapse;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+  }
 
   .card-container-obras {
     display: flex;
