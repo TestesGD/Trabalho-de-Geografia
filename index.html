@@ -7,708 +7,154 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
   <header class="navbar">
-    <h1> A Influência Europeia na Cultura Brasileira</h1>
-    <nav>
-      <a href="#culinaria">Culinária</a>
-      <a href="#mapa">Mapa Cultural</a>
-      <a href="#musica">Música</a>
-      <a href="#historia">História</a>
-      <a href="#papas">Linha do Tempo dos Papas</a>
-    </nav>
-  </header>
+      <h1>Herança Europeia no Brasil</h1>
 
-  <section class="hero">
+      <!-- Checkbox invisível -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" title="Alternar menu" aria-label="Alternar menu">
+
+      <!-- Ícone do menu -->
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Menu lateral -->
+      <div class="side-menu">
+        <a href="mapa.html">Mapa Cultural</a>
+        <a href="musica.html">Música</a>
+        <a href="historia.html">História</a>
+        <a href="papas.html">História Católica</a>
+      </div>
+      <style>
+          :root {
+            --cor-prin: linear-gradient(to right,rgb(42, 220, 19), rgb(173, 205, 12),rgb(0,39,118));
+            --cor-segunda: linear-gradient(to right, rgb(42, 220, 19), rgb(173, 205, 12),rgb(0,39,118));
+            --cor-terceira:linear-gradient(to right, rgb(42, 220, 19), rgb(173, 205, 12),rgb(0,39,118));
+          }
+        </style>
+
+    </header>
+
+
+  <section class="hero texto-efeito">
     <div class="hero-text">
       <h2>Sabores, histórias e tradições que moldaram o Brasil</h2>
       <p>Descubra como os povos europeus influenciaram nossa culinária, costumes e identidade cultural.</p>
     </div>
   </section>
 
-  <section id="culinaria" class="section">
+  <section id="culinaria" class="section texto-efeito">
     <h2>🍽️ Culinária Europeia no Brasil</h2>
     <div class="card-container">
       <div class="card">
         <img src="comidas/lasanha.jpg" alt="Lasanha Italiana">
         <h3>Lasanha</h3>
-        <p><strong>Origem:</strong> Itália </p>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-it"></div>  Itália 
+        </p>
         <p>Prato típico italiano que se popularizou no Brasil, especialmente nas colônias do Sul e Sudeste.</p>
       </div>
       <div class="card">
+        <img src="comidas/mini pizza.jpg" alt=" Mini Pizza Italiana">
+        <h3>Mini Pizza</h3>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-it"></div>  Itália 
+        </p>
+        <p>Versão reduzida da tradicional pizza italiana, muito apreciada em festas e lanches rápidos no Brasil.</p>
+      </div>
+      <div class="card">
+        <img src="comidas/Macarrão.jpg" alt="Macarrão Italiana">
+        <h3>Macarrão</h3>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-it"></div>  Itália 
+        </p>
+        <p>Base da culinária italiana, o macarrão ganhou diversas variações e molhos no Brasil, tornando-se prato do dia a dia.</p>
+      </div>
+
+      <div class="card">
         <img src="comidas/paes.jpg" alt="Pães Franceses">
         <h3>Pães</h3>
-        <p><strong>Origem:</strong> França </p>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-fr"></div> França 
+        </p>
         <p>Alimento básico da dieta francesa que chegou ao Brasil com os colonizadores. Existem diversas variedades, como pão francês, pão integral e baguete.</p>
       </div>
       <div class="card">
+        <img src="comidas/Vinho.jpg" alt="Vinho Franceses">
+        <h3>Vinho</h3>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-fr"></div> França 
+        </p>
+        <p>Bebida fermentada feita a partir da uva, símbolo da cultura francesa e muito apreciada em celebrações e refeições.</p>
+      </div>
+
+      <div class="card">
         <img src="comidas/pastel.jpg" alt="Pastel Espanhol">
         <h3>Pastel</h3>
-        <p><strong>Origem:</strong> Espanha </p>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-es"></div> Espanha
+        </p>
         <p>Prato típico espanhol que se popularizou no Brasil, especialmente nas feiras e festas.</p>
       </div>
+      
       <div class="card">
         <img src="comidas/doce_de_leite.jpg" alt="Doce de Leite">
         <h3>Doce de Leite</h3>
-        <p><strong>Origem:</strong> Espanha </p>
+        <p><strong>Origem:</strong>
+          <div class="fi fi-es">
+          </div>  Espanha
+        </p>
         <p>Preparado com leite e açúcar cozidos lentamente até obter uma consistência cremosa e caramelizada. Popular no Sul do Brasil, especialmente em sobremesas.</p>
       </div>
       <div class="card">
         <img src="comidas/salsicha.jpg" alt="Salsicha Alemã">
         <h3>Salsicha</h3>
-        <p><strong>Origem:</strong> Alemanha </p>
+        <p><strong>Origem:</strong> 
+        <div  class="fi fi-de"> 
+        </div>  Alemanha 
+        </p>
         <p>Produto de carne processada, temperada e embutida. Chegou ao Brasil com a imigração alemã, sendo base de pratos como o cachorro-quente e ensopados.</p>
       </div>
       <div class="card">
         <img src="comidas/chocolate.jpg" alt="Chocolate Suíço">
         <h3>Chocolate</h3>
-        <p><strong>Origem:</strong> Suíça </p>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-ch"></div> Suíça
+        </p>
         <p>Derivado do cacau, consumido como barra, bombom ou em sobremesas. Tornou-se muito popular no Brasil, especialmente nas confeitarias e festas</p>
-      </div>
       
-    </div>
-  </section>
-
-  <section id="mapa" class="section">
-    <h2>🗺️ Mapa Cultural</h2>
-    <p>Veja onde cada influência europeia se espalhou pelo Brasil.</p>
-    <img src="MapChart_Map.png" alt="Mapa do Brasil" class="mapa">
-<ul class="mapa-legenda">
-    <li class="mapa-details">
-      <div class="bandeira-titulo">
-        <span class="fi fi-it"></span> Italianos 
       </div>
-      <details>
-        <summary class="mapa-summary">
-          Clique para ver mais sobre como os italianos influenciaram a culinária brasileira e o estilo arquitetônico.
-        </summary>
-        <p>
-          Os italianos influenciaram muito a culinária e a arquitetura brasileira.</p>
-        <p>
-          Na culinária, trouxeram pratos como massas, pizzas, lasanhas, nhoques e vinhos, que se misturaram aos sabores locais e viraram parte da comida do dia a dia.
+        <div class="card">
+        <img src="comidas/Arroz Doce.jpg" alt="Arroz Doce português">
+        <h3>Arroz Doce</h3>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-pt"></div> Portugal
         </p>
-        <p>
-          Na arquitetura, trouxeram o estilo neoclássico e renascentista, com colunas, arcos e fachadas decoradas, visíveis em obras como o Palácio da Liberdade (MG) e o Teatro Municipal do Rio de Janeiro (RJ).
-        </p>
-         <div class="card-container-obras">
-          <div class="card-obras">
-            <img src="italia/Palácio_da_Liberdade(Belo_Horizonte).jpg" alt="Palácio da Liberdade">
-            <h3>Palácio da Liberdade </h3><br>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Belo Horizonte, Brasil</p>
-              <p>Sede do governo mineiro com influência italiana, estilo neoclássico, com colunas e simetria elegante.</p>
-            </div>
-          </div>
-
-          <div class="card-obras">
-            <img src="italia/Teatro_Municipal_do_Rio_de_Janeiro.jpg" alt="Teatro Municipal do Rio de Janeiro">
-            <h3>Teatro Municipal do Rio de Janeiro</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Rio de Janeiro, Brasil</p>
-              <p>Inspirado no renascentismo italiano, tem fachada luxuosa, colunas e vitrais, lembrando grandes teatros da Itália.</p>
-            </div>
-          </div>
-         </div>
-      </details>
-    </li>
-
-    <li class="mapa-details">
-      <div class="bandeira-titulo">
-        <span class="fi fi-de"></span> Alemães
+        <p>Sobremesa feita com arroz, leite e açúcar, trazida pelos portugueses e incorporada às tradições brasileiras.</p>
       </div>
-      <details>
-        <summary class="mapa-summary">
-          Clique para ver mais sobre como os alemães influenciaram a culinária brasileira e o estilo arquitetônico.
-        </summary>
-        <p>
-          Os alemães influenciaram o Brasil principalmente no Sul, onde se estabeleceram no século XIX.
-        </p>
-        <p>
-          Na culinária, trouxeram pratos como chucrute, salsichas, batatas, cervejas e cucas (bolos doces), que se tornaram típicos em estados como Santa Catarina e Rio Grande do Sul.
-        </p>
-        <p>
-          Na arquitetura, deixaram o estilo enxaimel, com casas de madeira aparente, telhados inclinados e janelas pequenas, visível em cidades como Blumenau e Pomerode (SC).
-        </p>
-        <div class="card-container-obras1">
-          <div class="card-obras1">
-            <img src="italia/Blumenau (SC) ale.jpg" alt="Cidade de Blumenau">
-            <h3>Cidade de Blumenau</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Blumenau, Brasil</p>
-              <p>Cidade com forte influência alemã, marcada pelo estilo enxaimel, com casas de madeira aparente e telhados inclinados, trazido pelos imigrantes no século XIX.</p>
-            </div>
-          </div>
-
-          <div class="card-obras1">
-            <img src="italia/Pomerode (SC) ale.jpg" alt="Teatro Municipal do Rio de Janeiro">
-            <h3>Cidade de Pomerode</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Pomerode, Brasil</p>
-              <p>Conhecida como “a cidade mais alemã do Brasil”, mantém o estilo enxaimel nas construções, com janelas pequenas e varandas floridas, típicas da Alemanha.</p>
-            </div>
-          </div>
-         </div>
-      </details>
-    </li>
-
-    <li class="mapa-details">
-      <div class="bandeira-titulo">
-        <span class="fi fi-pt"></span> Portugueses
-      </div>
-      <details>
-        <summary class="mapa-summary">
-          Clique para ver mais sobre como os portugueses influenciaram a culinária brasileira e o estilo arquitetônico.
-        </summary>
-        <p>
-          Os portugueses foram os primeiros a influenciar o Brasil, desde o período colonial.
-        </p>
-        <p>
-          Na culinária, trouxeram pratos como bacalhau, caldos, doces à base de ovos, azeite e o costume de usar arroz e feijão nas refeições.
-        </p>
-        <p>
-          Na arquitetura, introduziram o estilo colonial e barroco, com igrejas, azulejos coloridos, torres sineiras e varandas, visíveis em cidades como Ouro Preto (MG) e Tomar do Geru (SE).
-        </p>
-        <div class="card-container-obras2">
-          <div class="card-obras2">
-            <img src="italia/Igreja de São Francisco de Assis. por.jpg" alt="Igreja de São Francisco">
-            <h3>Igreja de São Francisco de Assis</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Ouro Preto, Brasil</p>
-              <p>Obra barroca de Aleijadinho, com altares dourados e esculturas, exemplo do barroco português no Brasil.</p>
-            </div>
-          </div>
-
-          <div class="card-obras2">
-            <img src="italia/igreja de tomar do geru por.jpg" alt="Convento de São Bento">
-            <h3>Igreja de Tomar do Geru</h3><br>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Tomar do Geru, Brasil</p>
-              <p>Um exemplo notável da influência portuguesa na arquitetura brasileira, a Igreja de Tomar do Geru é um marco histórico do estado de Sergipe.</p>
-            </div>
-          </div>
-         </div>
-      </details>
-    </li>
-    <li class="mapa-details">
-      <div class="bandeira-titulo">
-        <span class="fi fi-es"></span> Espanhóis
-      </div>
-      <details>
-        <summary class="mapa-summary">
-          Clique para ver mais sobre como os espanhóis influenciaram a culinária brasileira e o estilo arquitetônico.
-        </summary>
-        <p>
-          Os espanhóis influenciaram o Brasil principalmente em construções urbanas e militares.
-        </p>
-        <p>
-          Na culinária, trouxeram doces, pães e técnicas de conserva, que se misturaram aos hábitos locais.
-        </p>
-        <p>
-          Na arquitetura, deixaram traços do estilo colonial e neogótico, com arcos, varandas, fachadas imponentes e castelos, visíveis em obras como o Castelinho do Flamengo (RJ) e o Palácio dos Leões (MA).
-        </p>
-        <div class="card-container-obras3">
-          <div class="card-obras3">
-            <img src="italia/Castelinho do Flamengo esp.jpg" alt="Catedral da Sé">
-            <h3>Castelinho do Flamengo</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Rio de Janeiro, Brasil</p>
-              <p>Construção em estilo neogótico espanhol, com torres, vitrais e janelas ogivais, lembrando castelos medievais da Espanha.</p>
-            </div>
-          </div>
-
-          <div class="card-obras3">
-            <img src="italia/Palácio dos Leões (MA esp.jpg" alt="Catedral Metropolitana">
-            <h3>Palácio dos Leões</h3>
-            <div class="caixa p">
-              <p><strong>Origem:</strong> Maranhão, Brasil</p>
-              <p>Edifício histórico com influência espanhola e portuguesa, possui arcos, varandas e colunas, destacando a arquitetura ibérica.</p>
-            </div>
-          </div>
-        </div>
-      </details>
-    </li>
-</ul>
-
-  </section>
   
-  <section id="musica" class="section">
-    <h2>🎶 Músicas </h2>
-    <p>A música brasileira é uma mistura rica de influências, incluindo ritmos e estilos trazidos por imigrantes europeus. Alguns exemplos incluem:</p>
-    <div class="card-container-musica">
-      <div class="card-musica">
-        <img src="musicas/Brejeiro.jpg" alt="Brejeiro">
-        <h3>Brejeiro</h3>
-        <audio controls controlslist="nodownload noplaybackrate noremoteplayback">
-          <source src="musicas/Centrum Choro 2011-_Brejeiro_ by Ernesto Nazareth(M4A_128K).m4a" type="audio/mpeg">
-        </audio>
-        <p><strong>Artista:</strong> Ernesto Nazareth</p>
-        <p><strong>Ano de Lançamento:</strong> 1893</p>
-        <p>Tango brasileiro alegre e elegante, mistura música popular e erudita, sendo um marco do choro.</p>
-
-      </div>
-      <div class="card-musica">
-        <img src="musicas/Corta Jaca.jpg" alt="Corta Jaca">
-        <h3>Corta Jaca</h3>
-         <audio controls controlslist="nodownload noplaybackrate noremoteplayback">
-          <source src="musicas/Corta-Jaca(M4A_128K).m4a" type="audio/mpeg">
-        </audio>
-        <p><strong>Artista:</strong> Chiquinha Gonzaga</p>
-        <p><strong>Ano de Lançamento:</strong> 1897</p>
-        <p>Ritmo animado e dançante, mistura de maxixe e choro; inovou ao levar música popular aos salões da elite.</p>
-      </div>
-      <div class="card-musica">
-        <img src="musicas/Odeon.jpg" alt="Odeon">
-        <h3>Odeon</h3>
-         <audio controls controlslist="nodownload noplaybackrate noremoteplayback">
-          <source src="musicas/Yamandu Costa - Odeon (Ernesto Nazareth)(M4A_128K).m4a" type="audio/mpeg">
-        </audio>
-        <p><strong>Artista:</strong> Ernesto Nazareth</p>
-        <p><strong>Ano de Lançamento:</strong> 1910</p>
-        <p>Peça sofisticada e melódica, com ritmo suave e nostálgico, símbolo da fusão entre o popular e o erudito</p>
-      </div>
-      
-      <div class="card-musica">
-        <img src="musicas/Noites Cariocas.jpg" alt="Noites Cariocas">
-        <h3>Noites Cariocas</h3>
-         <audio controls controlslist="nodownload noplaybackrate noremoteplayback">
-          <source src="musicas/Noites Cariocas(M4A_128K).m4a" type="audio/mpeg">
-        </audio>
-        <p><strong>Artista:</strong> Jacob do Bandolim</p>
-        <p><strong>Ano de Lançamento:</strong> 1957</p>
-        <p>Choro expressivo e virtuoso, representa o clima boêmio e alegre das rodas de choro do Rio de Janeiro.</p>
-      </div>
+    <div class="card">
+        <img src="comidas/Empada.jpg" alt="Empada portuguesa">
+        <h3>Empada</h3>
+        <p><strong>Origem:</strong> 
+        <div class="fi fi-pt"></div> Portugal
+        </p>
+        <p>Pequena torta salgada com recheios variados, muito popular em lanchonetes e padarias brasileiras.</p>
     </div>
   </section>
 
-  <section id="historia" class="section historia">
-    <h2>📖 História das Influências Europeias</h2>
-    
-    <p>
-      A formação do Brasil é resultado de um intenso processo de contato entre diferentes povos e culturas.
-      Entre essas influências, a presença europeia foi uma das mais marcantes. Desde o século XVI, quando 
-      os portugueses chegaram às terras americanas, o território brasileiro passou a receber ideias, costumes, 
-      tecnologias e tradições vindas da Europa.
-      Essas influências moldaram o idioma, a religião, a política, a economia, a arquitetura, a culinária e até
-      mesmo o modo de vida da população brasileira. Além de Portugal, outros países como Espanha, Itália, Alemanha,
-      França, Inglaterra e Holanda também deixaram marcas importantes.
-    </p>
-    <div class="bandeira-titulo">
-        <span class="fi fi-pt"></span><b>A Influência Portuguesa (1500–1822)</b>
-    </div>
-    <p>
-      A colonização portuguesa começou oficialmente com a chegada de Pedro Álvares Cabral em 1500. Desde então, Portugal estabeleceu um domínio político, econômico e cultural duradouro sobre o Brasil.
-    </p>
-    <p><b>Principais contribuições portuguesas:</b></p>
-    <ul>
-      <div class="historia lista">
-        <li>Língua: o português tornou-se o idioma oficial do país</li>
-        <li>Religião: o catolicismo foi trazido pelos missionários jesuítas, responsáveis pela catequização dos povos indígenas.</li>
-        <li>Arquitetura: construções com influência barroca e azulejos decorativos ainda são visíveis em cidades como Ouro Preto, Olinda e Salvador.</li>
-        <li>Administração e leis: o Brasil herdou o modelo político e jurídico português.</li>
-        <li>Culinária: o uso de azeite, bacalhau, feijoada e doces como o pastel de nata.</li>
-        <li>Tradições culturais: festas religiosas como o São João, procissões e o costume de erguer igrejas no centro das cidades.</li>
-    </div>
-    </ul>
-    <div class="bandeira-titulo">
-        <span class="fi fi-es"></span><b>A Influência Espanhola (1580–1640)</b>
-    </div>
-    <p>Durante a União Ibérica, quando o rei da Espanha também governava Portugal, o Brasil ficou temporariamente sob influência espanhola.</p>
-    <p><b>Contribuições espanholas:</b></p>
-    <ul>
-      <div class="historia lista">
-        <li>Expansão territorial: os colonos brasileiros avançaram para além dos limites do Tratado de Tordesilhas.</li>
-        <li>Arquitetura e urbanismo: o estilo das cidades espanholas influenciou a organização de vilas e praças brasileiras.</li>
-        <li>Cultura e religião: festas populares, devoção a santos e procissões refletem semelhanças com costumes espanhóis.</li>
-      </div>
-    </ul>
 
-    <div class="bandeira-titulo">
-        <span class="fi fi-it"></span><b>A Influência Italiana (Século XIX)</b>
-    </div>
-    <p>A partir de 1870, o Brasil recebeu centenas de milhares de imigrantes italianos, principalmente para trabalhar nas fazendas de café do Sudeste e nas colônias agrícolas do Sul.</p>
-    <p><b>Contribuições italianas:</b></p>
-    <ul>
-      <div class="historia lista">
-        <li>Culinária: pizzas, massas, queijos e vinhos.</li>
-        <li>Trabalho e agricultura: ajudaram no desenvolvimento da agricultura familiar.</li>
-        <li>Cultura e arte: influenciaram o canto coral, o teatro e a arte sacra.</li>
-        <li>Festas e tradições: Festa da Uva em Caxias do Sul e o Carnaval de São Paulo.</li>
-        <li>Valores familiares: preservação da convivência e do respeito à família.</li>
-      </div>
-    </ul>
-
-    <div class="bandeira-titulo">
-        <span class="fi fi-de"></span><b>A Influência Alemã (A partir de 1824)</b>
-    </div>
-    <p>A imigração alemã para o Brasil começou em 1824, com a chegada de colonos ao sul do país. Eles se estabeleceram principalmente em áreas como o Rio Grande do Sul, Santa Catarina e Paraná.</p>
-    <p><b>Contribuições alemãs:</b></p>
-    <ul>
-      <div class="historia lista">
-        <li>Arquitetura: o estilo enxaimel, com madeira aparente e telhados inclinados, é uma marca visível no Sul.</li>
-        <li>Educação e cooperativismo: fundaram escolas e cooperativas agrícolas.</li>
-        <li>Festas e tradições: Oktoberfest, culinária típica (salsichas, chucrute, cerveja).</li>
-        <li>Música: contribuíram para a música erudita e popular, com bandas e corais.</li>
-        <li>Indústria e tecnologia: participaram do desenvolvimento industrial, especialmente na metalurgia.</li>
-      </div>
-    </ul>
-    <div class="bandeira-titulo">
-        <span class="fi fi-br"></span><b>Influência Europeia na Bandeira do Brasil</b>
-    </div>
-    <p>
-      A bandeira brasileira atual, adotada em 1889, combina elementos que têm origem europeia:
-    </p>
-    <p><strong>1. O verde e o amarelo</strong></p>
-    <ul>
-      <div class="historia lista">
-        <li>O verde representa as matas e florestas do Brasil, mas também é associado à Casa de Bragança, da qual Dom Pedro I, o primeiro imperador do Brasil, era membro, de origem portuguesa.</li>
-        <li>O amarelo simboliza as riquezas minerais do país, especialmente o ouro, e está ligado à Casa de Habsburgo, da qual a imperatriz Leopoldina, esposa de Dom Pedro I, era membro, de origem austríaca.</li>
-      </div>
-    </ul>
-    <p><strong>2. O losango e o círculo</strong></p>
-    <ul>
-      <div class="historia lista">
-        <li>O uso do losango e do círculo central tem inspiração em bandeiras e brasões europeus, que utilizavam formas geométricas para simbolizar realeza, ordem e harmonia.</li>
-      </div>
-    </ul>
-    <p><strong>3. A frase “Ordem e Progresso”</strong></p>
-    <ul>
-      <div class="historia lista">
-        <li>Foi inspirada no positivismo, uma corrente filosófica desenvolvida na França pelo pensador Auguste Comte.</li>
-        <li>Esse lema reflete ideias europeias de progresso, ciência e organização social.</li>
-      </div>
-    </ul>
-    <p><strong>4. As estrelas </strong></p>
-    <ul>
-      <div class="historia lista">
-        <li>Cada estrela representa um estado brasileiro, mas a disposição é baseada no mapa do céu do hemisfério sul, seguindo a tradição de cartografia europeia.</li>
-      </div>
-    </ul>
-    <div class="centro p">
-    <p>🎭 A Mistura Cultural Brasileira</p>
-  </div>
-    <p>
-      O encontro das culturas europeia, indígena e africana criou uma sociedade única.</p>
-    <p>
-      Enquanto os europeus trouxeram escrita, religião e leis, os indígenas e africanos contribuíram com conhecimentos sobre a natureza, música, trabalho e fé.
-    </p>
-    <p>
-      Essa mistura originou:
-    </p>
-    <ul>
-      <div class="historia lista">
-        <li>Samba, frevo e outras manifestações culturais;</li>
-        <li>Culinária regional como acarajé, feijoada e churrasco;</li>
-        <li>Arte barroca brasileira;</li>
-        <li>Festas populares, como o Carnaval e o Bumba Meu Boi.</li>
-      </div>
-    </ul>
-    <p>
-      povo trouxe parte da sua história, moldando costumes e tradições. Hoje, o Brasil é um reflexo dessa diversidade: um país com raízes europeias, mas com alma brasileira — criativa, miscigenada e vibrante, visível na língua, na arte, na arquitetura, na culinária e nas festas populares.
-    </p>
-  </section>
   
-    <section id="historia" class="section historia">
-    <h2>🕊️ História da Igreja Católica</h2>
-    <div class="ti-igr">
-      <p>📜Origem e Fundação</p>
-    </div>
-    <p>A Igreja Católica é considerada a instituição cristã mais antiga do mundo.
-      Ela teve início no século I d.C., logo após a morte e a ressurreição de Jesus Cristo.</p>
-    <p>
-      De acordo com a tradição cristã, Jesus confiou a Pedro, um de seus apóstolos, a missão de guiar a sua Igreja, dizendo:<br><i><b>“Tu és Pedro, e sobre esta pedra edificarei a minha Igreja.”</b></i>
-    </p>
-    <p>
-      Por essa razão,<b> Pedro é reconhecido como o primeiro Papa.</b>
-    </p>
-    <p>
-      Nos primeiros séculos, os cristãos foram perseguidos pelo Império Romano. Muitos deles morreram como mártires por causa da fé.
-      <br>
-      Em 313 d.C., o imperador Constantino publicou o Édito de Milão, que legalizou o cristianismo. Pouco tempo depois, ele se tornou a religião oficial do Império Romano.
-    </p>
-
-    <div class="ti-igr">
-      <p>⛪ Formação e Expansão</p>
-    </div>
-    <p>
-      Com o passar dos séculos, a Igreja Católica consolidou sua estrutura e se expandiu pela Europa, África e Oriente Médio.<br>
-      Durante a Idade Média (séculos V a XV), a Igreja teve grande influência política, cultural e educacional.
-    </p>
-    <p>
-      Os mosteiros preservaram o conhecimento antigo, copiando livros e ensinando nas primeiras escolas da Europa.<br>
-      Nesse mesmo período, aconteceram as Cruzadas, expedições militares organizadas para reconquistar lugares considerados sagrados, como Jerusalém.
-    </p>
-    <div class="ti-igr">
-      <p>⚔️ Divisões e Reformas</p>
-    </div>
-    <p>
-      Em 1054, ocorreu o Cisma do Oriente, que dividiu o cristianismo em duas grandes partes:
-    </p>
-    <ul>
-      <div class="historia lista">
-        <li>
-        Igreja Católica Apostólica Romana (Ocidental), ligada ao Papa, em Roma;</li>
-        <li>Igreja Ortodoxa (Oriental), ligada ao Patriarca de Constantinopla.</li>
-      </div>
-    </ul>
-    <p>
-      Mais tarde, no século XVI, surgiu a Reforma Protestante, liderada por Martinho Lutero, que criticou práticas e abusos da Igreja, como a venda de indulgências.<br>
-      Isso originou várias novas denominações cristãs, como luteranos, calvinistas e anglicanos.
-    </p>
-    <p>
-      Em resposta, a Igreja Católica promoveu a Contrarreforma, por meio do Concílio de Trento (1545–1563), que buscou corrigir erros internos e reafirmar as suas doutrinas.
-    </p>
-
-    <div class="ti-igr">
-      <p>🌍 Influência no Mundo</p>
-    </div>
-    <p>
-      Após essas divisões, a Igreja Católica manteve-se como uma das instituições mais influentes da história.<br>
-      Ela exerceu papel central em diversos campos:
-    </p>
-    <ul>
-      <div class="historia lista">
-        <li>Educação: fundou escolas, colégios e universidades.</li>
-        <li>Ciência: apoiou estudiosos, como Gregor Mendel, considerado o pai da genética.</li>
-        <li>Arte e Cultura: patrocinou grandes artistas, como Michelangelo e Leonardo da Vinci.</li>
-        <li>Política: influenciou reis, leis e valores morais da civilização ocidental.</li>
-      </div>
-    </ul>
-    <p>Atualmente, a Igreja Católica conta com cerca de 1,3 bilhão de fiéis espalhados pelo mundo.</p>
-    
-    <div class="ti-igr">
-      <p>🙏 Principais Santos</p>
-    </div>
-    <p>Os santos são pessoas que viveram de forma exemplar e são reconhecidas oficialmente pela Igreja Católica por sua santidade.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Santo</th>
-          <th>Época</th>
-          <th>Conhecido por...</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>São Pedro</td>
-          <td>Século I</td>
-          <td>Primeiro Papa e mártir do cristianismo.</td>
-        </tr>
-        <tr>
-          <td>São Paulo</td>
-          <td>Século I</td>
-          <td>Missionário e autor de várias cartas bíblicas.</td>
-        </tr>
-        <tr>
-          <td>Santo Agostinho</td>
-          <td>Século IV</td>
-          <td>Filósofo e teólogo; autor de Confissões.</td>
-        </tr>
-        
-        <tr>
-          <td>São Francisco de Assis</td>
-          <td>Século XIII</td>
-          <td>  Fundador dos franciscanos; defensor dos pobres e dos animais.</td>
-        </tr>
-        
-        <tr>
-          <td>Santa Teresa de Ávila</td>
-          <td>Século XVI</td>
-          <td>Reformadora dos carmelitas; conhecida pela espiritualidade profunda</td>
-        </tr>
-
-        <tr>
-          <td>São Tomás de Aquino</td>
-          <td>Século XIII</td>
-          <td>Teólogo e filósofo; autor da Suma Teológica.</td>
-        </tr>
-
-        <tr>
-          <td>São João Paulo II	</td>
-          <td>Século XX	</td>
-          <td>Papa carismático e símbolo de fé no mundo moderno.</td>
-        </tr>
-      </tbody>
-    </table><br><br>
-
-    <div class="ti-igr">
-      <p>🕊️ Hierarquia da Igreja Católica</p>
-    </div>
-    <p>
-      A Igreja Católica possui uma estrutura hierárquica organizada, que define funções e responsabilidades:
-    </p>
-    <table>
-      <thead>
-        <tr>
-          <th>Cargo</th>
-          <th>Função</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Papa</td>
-          <td>Líder supremo da Igreja, sucessor de São Pedro.</td>
-        </tr>
-
-        <tr>
-          <td>Cardeais</td>
-          <td>Auxiliam o Papa e elegem seu sucessor em caso de morte.</td>
-        </tr>
-
-        <tr>
-          <td>Arcebispos e Bispos</td>
-          <td>Administram dioceses e supervisionam padres e paróquias.</td>
-        </tr>
-
-        <tr>
-          <td>Padres</td>
-          <td>Conduzem as paróquias e celebram os sacramentos.</td>
-        </tr>
-
-        <tr>
-          <td>Diáconos</td>
-          <td>Auxiliam os padres nas celebrações e na assistência aos fiéis.</td>
-        </tr>
-
-        <tr>
-          <td>Religiosos e Religiosas</td>
-          <td>Vivem em comunidades, dedicados à oração e ao serviço.</td>
-        </tr>
-
-        <tr>
-          <td>Leigos</td>
-          <td>Fieis comuns que participam das atividades e missões da Igreja.</td>
-        </tr>
-      </tbody>
-    </table><br><br>
-    <div class="ti-igr">
-      <p>💡Influência nos Dias Atuais</p>
-    </div>
-    <p>Nos tempos modernos, a Igreja Católica continua exercendo grande influência religiosa, social e moral.
-    </p>
-    <p>
-      Atua em diversas áreas:
-      <ul>
-        <div class="historia lista">
-          <li>Educação e saúde, por meio de escolas, universidades e hospitais.</li>
-          <li>Projetos sociais, como a Pastoral da Criança e a Cáritas Internacional.</li>
-          <li>Debates éticos, defendendo a dignidade da vida e o cuidado com o meio ambiente.</li>
-          <li>Eventos religiosos, como as Jornadas Mundiais da Juventude.</li>
-        </div>
-      </ul>
-    </p>
-
-    <div class="ti-igr">
-      <p>✝️ Símbolos e Práticas Importantes</p>
-    </div>
-    <p>
-      Os principais símbolos e rituais da Igreja Católica são:
-      <ul>
-        <div class="historia lista">
-          <li>A Cruz: símbolo máximo da fé cristã.</li>
-          <li>A Missa: celebração central, onde se recorda a morte e ressurreição de Cristo.</li>
-          <li>Os Sete Sacramentos:
-            <ol>
-              <li>Batismo</li>
-              <li>Crisma</li>
-              <li>Eucaristia</li>
-              <li>Confissão</li>
-              <li>Matrimônio</li>
-              <li>Ordem</li>
-              <li>Unção dos enfermos</li>
-            </ol>
-          </li>
-          <li>A Oração e a Caridade: bases da vida cristã e comunitária.</li>
-        </div>
-      </ul>
-    </p><br>
-    <p>
-      A Igreja Católica é uma das instituições mais antigas e influentes da humanidade.<br>
-      Desde a sua origem com os apóstolos de Cristo, ela sobreviveu a perseguições, cismas e reformas, mantendo sua fé e missão de evangelizar
-    </p>
-    <p>
-      Com mais de dois mil anos de história, a Igreja continua atuando como força espiritual, social e cultural, promovendo valores de fé, solidariedade, paz e justiça em todo o mundo.
-    </p>
-  </section>
-
-  <section id="papas" class="section timeline-section">
-    <h2>⛪ Linha do Tempo dos Papas</h2>
-    <p>O catolicismo europeu teve grande influência no Brasil, e os papas foram figuras centrais na história da Igreja Católica. Veja alguns dos mais importantes:</p>
-    
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-date">1500</div>
-        <div class="timeline-content">
-            <img src="papas/papa_Alexandre_VI.jpg" alt="Papa Alexandre VI">
-          <h3>Papa Alexandre VI</h3>
-          <p>Pontífice durante o Tratado de Tordesilhas, que dividiu as terras do Novo Mundo entre Portugal e Espanha.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-date">1800</div>
-        <div class="timeline-content">
-          <img src="papas/papa_pio_VII.jpg" alt="Papa Pio VII">
-          <h3>Papa Pio VII</h3>
-          <p>Governou durante o período de independência do Brasil, quando o catolicismo era a religião oficial do Império.</p>
-        </div>
-      </div>
-
-       <div class="timeline-item">
-        <div class="timeline-date">1878</div>
-        <div class="timeline-content">
-            <img src="papas/Papa_Leão_XIII.jpg" alt="Papa Leão XIII">
-          <h3>Papa Leão XIII</h3>
-          <p>Conhecido por sua Doutrina Social, defendeu justiça social e os direitos dos trabalhadores.</p>
-        </div>
-      </div>
 
 
-      <div class="timeline-item">
-        <div class="timeline-date">1963</div>
-        <div class="timeline-content">
-            <img src="papas/Papa_Paulo_VI.jpg" alt="Papa Paulo VI">
-          <h3>Papa Paulo VI</h3>
-          <p>Primeiro papa a visitar países da América Latina, fortalecendo os laços com os fiéis brasileiros.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-date">1980</div>
-        <div class="timeline-content">
-            <img src="papas/Papa_João_Paulo_II.jpg" alt="Papa João Paulo II">
-          <h3>Papa João Paulo II</h3>
-          <p>Visitou o Brasil várias vezes e é lembrado por sua mensagem de paz e união entre os povos.</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2005</div>
-        <div class="timeline-content">
-            <img src="papas/Papa_Bento_XVI.jpg" alt="Papa Bento XVI">
-          <h3>Papa Bento XVI</h3>
-          <p>Renunciou em 2013, sendo um dos poucos papas da história a abdicar do cargo voluntariamente.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-date">2013</div>
-        <div class="timeline-content">
-            <img src="papas/Papa_Francisco.jpg" alt="Papa Francisco">
-          <h3>Papa Francisco</h3>
-          <p>Primeiro papa latino-americano, vindo da Argentina, e que participou da Jornada Mundial da Juventude no Rio de Janeiro.</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2025</div>
-        <div class="timeline-content">
-            <img src="papas/novo_papa.jpg" alt="Papa Leão XIV">
-          <h3>Papa Leão XIV</h3>
-          <p>Papa previsto para 2025, sucessor de Papa Francisco. Seu pontificado está em início, e suas ações e impactos ainda estão sendo definidos, mas espera-se que siga liderando a Igreja Católica e promovendo seus ensinamentos e tradições.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
+  
+   
   <footer>
     <p> Influência Europeia na Cultura Brasileira © 2025</p><br>
     <p>Desenvolvido pela equipe do 3PI.</p>

@@ -1,0 +1,128 @@
+/* estilo do cabeçalho */
+:root{
+    --cor-prin:linear-gradient(#c9a227,#ffffff);
+    --cor-segunda:#ffd700;
+    --cor-terceira:linear-gradient(rgb(56, 52, 52),rgb(102, 115, 5));
+}
+header {
+  background: var(--cor-prin) !important ;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* título / logo */
+.navbar h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Ícone sanduíche */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  z-index: 1001;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* ESCONDE CHECKBOX */
+.menu-checkbox {
+  display: none;
+}
+
+/* MENU LATERAL */
+.side-menu {
+  height: 100%;
+  width: 0; /* começa fechado */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--cor-segunda) ;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.side-menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(18, 14, 14);
+  display: block;
+  transition: background 0.3s;
+}
+
+.side-menu a:hover {
+  background:var(--cor-terceira);
+}
+
+.side-menu .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* QUANDO O CHECKBOX É MARCADO, MOSTRA O MENU */
+.menu-checkbox:checked ~ .side-menu {
+  width: 200px;
+}
+
+/* --- ANIMAÇÃO DO ÍCONE EM “X” --- */
+.menu-checkbox:checked + .hamburger span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-checkbox:checked + .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-checkbox:checked + .hamburger span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsividade */
+@media (max-width: 700px) {
+  .logo h1 {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+  background: var(--cor-prin) !important ;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .navbar h1 {
+  font-size: 19px;
+  margin: 0px;
+
+  }
+}

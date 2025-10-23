@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎶 Músicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+     <header class="navbar">
+      <h1>🎶 Músicas</h1>
+
+      <!-- Checkbox invisível -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" title="Alternar menu" aria-label="Alternar menu">
+
+      <!-- Ícone do menu -->
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Menu lateral -->
+      <div class="side-menu">
+        <a href="index.html">Culinária</a>
+        <a href="mapa.html">Mapa Cultural</a>
+        <a href="historia.html">História</a>
+        <a href="papas.html">História Católica</a>
+      </div>
+      <style>
+          :root {
+            --cor-prin: linear-gradient(#3b7a57, #ffd54f);
+            --cor-segunda: linear-gradient(#3b7a57, #ffd54f);
+            --cor-terceira:linear-gradient(#006666, #F5E8C7);
+          }
+        </style>
+
+    </header>
+     <section id="musica" class="section texto-efeito">
+    
+    <p>A música brasileira é uma mistura rica de influências, incluindo ritmos e estilos trazidos por imigrantes europeus. Alguns exemplos incluem:</p>
+    <div class="card-container-musica">
+      <div class="card-musica">
+        <img src="musicas/Brejeiro.jpg" alt="Brejeiro">
+        <h3>Brejeiro</h3>
+        <audio controls  controlslist="nodownload noplaybackrate noremoteplayback" >
+          <source src="musicas/Centrum Choro 2011-_Brejeiro_ by Ernesto Nazareth(M4A_128K).m4a" type="audio/mpeg">
+        </audio>
+        <p><strong>Artista:</strong> Ernesto Nazareth</p>
+        <p><strong>Ano de Lançamento:</strong> 1893</p>
+        <p>Tango brasileiro alegre e elegante, mistura música popular e erudita, sendo um marco do choro.</p>
+
+      </div>
+      <div class="card-musica">
+        <img src="musicas/Corta Jaca.jpg" alt="Corta Jaca">
+        <h3>Corta Jaca</h3>
+         <audio controls controlslist="nodownload noplaybackrate noremoteplayback" >
+          <source src="musicas/Corta-Jaca(M4A_128K).m4a" type="audio/mpeg">
+        </audio>
+        <p><strong>Artista:</strong> Chiquinha Gonzaga</p>
+        <p><strong>Ano de Lançamento:</strong> 1897</p>
+        <p>Ritmo animado e dançante, mistura de maxixe e choro; inovou ao levar música popular aos salões da elite.</p>
+      </div>
+      <div class="card-musica">
+        <img src="musicas/Odeon.jpg" alt="Odeon">
+        <h3>Odeon</h3>
+        <audio controls controlslist="nodownload noplaybackrate noremoteplayback">
+            <source src="musicas/Yamandu Costa - Odeon (Ernesto Nazareth)(M4A_128K).m4a" type="audio/mp4">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <p><strong>Artista:</strong> Ernesto Nazareth</p>
+        <p><strong>Ano de Lançamento:</strong> 1910</p>
+        <p>Peça sofisticada e melódica, com ritmo suave e nostálgico, símbolo da fusão entre o popular e o erudito</p>
+      </div>
+      
+      <div class="card-musica">
+        <img src="musicas/Noites Cariocas.jpg" alt="Noites Cariocas">
+        <h3>Noites Cariocas</h3>
+         <audio controls controlslist="nodownload noplaybackrate noremoteplayback"> 
+          <source src="musicas/Noites Cariocas(M4A_128K).m4a" type="audio/mpeg">
+        </audio>
+        <p><strong>Artista:</strong> Jacob do Bandolim</p>
+        <p><strong>Ano de Lançamento:</strong> 1957</p>
+        <p>Choro expressivo e virtuoso, representa o clima boêmio e alegre das rodas de choro do Rio de Janeiro.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p> Influência Europeia na Cultura Brasileira © 2025</p><br>
+    <p>Desenvolvido pela equipe do 3PI.</p>
+  </footer>
+</body>
+</html>
