@@ -126,3 +126,70 @@ header {
 
   }
 }
+      /* === CONTAINER DOS CARROSÉIS === */
+        .carrossel-container {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 40px;              /* espaço entre os carrosséis */
+          margin-top: 10px;   /* espaço entre banner e carrossel */
+        }
+
+        /* === CADA CARD === */
+        .carrossel-card {
+          background: linear-gradient(to right, #0277bd,white);
+          border-radius: 15px;
+          box-shadow: 0 0 20px rgba(0,0,0,0.4);
+          overflow: hidden;
+          width: 100%;
+          height: 100vh;
+          text-align: center;
+          
+        }
+
+        /* === CARROSSEL === */
+        .carrosel {
+          position: relative;
+        }
+
+        .slide {
+          display: none;
+        }
+
+        .slide.ativo {
+          display: block;
+        }
+
+        .slide img {
+          width: 80%;
+          height: 80vh;
+          object-fit: cover;
+        }
+
+        .descricao {
+          padding: 12px;
+          background: rgba(5, 11, 75, 0.4);
+          border-radius: 0 0 15px 15px;
+        }
+
+        /* === PONTINHOS === */
+        .dots-container {
+          text-align: center;
+          padding: 10px 0 15px;
+        }
+
+        .dot {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin: 0 5px;
+          background-color: #bbb;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .dot.active {
+          background-color: #007bff;
+          transform: scale(1.3);
+        }
