@@ -1,5 +1,23 @@
 
-  
+          
+      const musica = document.getElementById('musica');
+      const btn = document.getElementById('btnSom');
+
+      // Autoplay mutado
+      musica.muted = true;
+      musica.play().catch(err => console.log("Autoplay bloqueado, esperando interação."));
+
+      // Botão para ativar/desativar som
+      btn.addEventListener('click', () => {
+        if (musica.muted) {
+          musica.muted = false;
+          btn.textContent = "🔈 Desativar Som";
+          musica.play(); // necessário para alguns navegadores
+        } else {
+          musica.muted = true;
+          btn.textContent = "🔊 Ativar Som";
+        }
+      });
     // Função para inicializar cada carrossel separadamente
     function initCarrossel(carrosselId) {
       const carrossel = document.getElementById(carrosselId);
@@ -41,7 +59,7 @@
 
       function resetInterval() {
         if (timer) clearInterval(timer);
-        timer = setInterval(nextSlide, 1000);
+        timer = setInterval(nextSlide, 4000);
       }
 
       resetInterval();
@@ -53,3 +71,4 @@
     // Inicializa cada carrossel
     initCarrossel('carrossel1');
     initCarrossel('carrossel2');
+   
