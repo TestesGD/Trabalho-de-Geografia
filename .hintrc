@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "audio[controlslist]"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
