@@ -59,7 +59,7 @@
 
       function resetInterval() {
         if (timer) clearInterval(timer);
-        timer = setInterval(nextSlide, 6000);
+        timer = setInterval(nextSlide, 1000);
       }
 
       resetInterval();
